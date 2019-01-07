@@ -8,10 +8,10 @@ import { ThfMenuItem } from '@totvs/thf-ui';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sidemenu';
 
   readonly menus: Array<ThfMenuItem> = [
-    { label: 'Ínicio', link: '/home' },
-    { label: 'Usuários', link: '/users' },
+    { label: 'Home', link: '/home' },
+    { label: 'Users', link: '/users' },
   ];
+
 }
