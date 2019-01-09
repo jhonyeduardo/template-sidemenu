@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PLACHEHOLDER": {
+    "PLACEHOLDER": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/PLACHEHOLDER",
+            "outputPath": "dist/PLACEHOLDER",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PLACHEHOLDER:build"
+            "browserTarget": "PLACEHOLDER:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PLACHEHOLDER:build:production"
+              "browserTarget": "PLACEHOLDER:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PLACHEHOLDER:build"
+            "browserTarget": "PLACEHOLDER:build"
           }
         },
         "test": {
@@ -97,7 +97,7 @@
         }
       }
     },
-    "PLACHEHOLDER-e2e": {
+    "PLACEHOLDER-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -105,11 +105,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "PLACHEHOLDER:serve"
+            "devServerTarget": "PLACEHOLDER:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "PLACHEHOLDER:serve:production"
+              "devServerTarget": "PLACEHOLDER:serve:production"
             }
           }
         },
@@ -125,5 +125,5 @@
       }
     }
   },
-  "defaultProject": "PLACHEHOLDER"
+  "defaultProject": "PLACEHOLDER"
 }
